@@ -1,0 +1,140 @@
+  .Основа{
+    width: 41%; 
+    background: green; 
+    border: 10px solid #333; /* Граница вокруг ячеек */
+    padding: 50px; /* Поля в ячейках */ 
+    
+    background-color:green;
+  display:inline-block;
+    border-spacing:7px 5px;
+   
+   }
+.текст{
+  width: 41%; 
+    border: 50px solid #399
+    background: green; 
+    border: 10px solid #333; /* Граница вокруг ячеек */
+    padding: 50px; /* Поля в ячейках */ 
+ 
+    background-color:green;
+  display:inline-block;
+    border-spacing:7px 5px;
+
+
+    vertical-align: top;
+
+
+}
+.block2
+    { 
+    width: 200px; 
+    background: blue; 
+    padding: 5px; 
+    border: solid 1px black; 
+    float: left; 
+    position: relative; 
+    top: 40px; 
+    left: -70px; 
+    color: black ;
+   }
+.be
+{
+
+    background: white; 
+}
+#maket {
+    width: 100%;
+   }
+   TD {
+    vertical-align: top;
+    padding: 5px;
+   }
+   TD#т {
+    width: 200px; 
+    background: black;
+    border: 1px solid #000;   
+    color:blue;
+   }
+   TD#у {
+    background:black; 
+    border: 1px solid #000;  
+    color:blue;
+   }
+   #spacer {
+    width: 3px; 
+   }
+
+ .table {
+    background: red; 
+    color: white;  
+   }
+   .td {
+    background: navy; 
+   }
+  .u {
+ font-weight: bold;
+   }
+.telegram-button {
+    position: fixed;
+    right: 13px;
+    bottom: 90px;
+    transform: translate(-50%, -50%);
+    background: black; 
+    border-radius: 50%;
+    width: 80px; 
+    height: 73px;  
+    color: #fff;
+    text-align: center;
+    line-height: 53px; 
+    font-size: 76px;  
+    z-index: 9999;
+}
+.telegram-button a {
+    color: red;
+}
+.telegram-button:before,
+.telegram-button:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    border: 50%;
+    border: 1px solid red;  
+    left: -20px;
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    border-radius: 50%;
+    animation: animate 1.5s linear infinite;
+    opacity: 0;
+    backface-visibility: hidden; 
+}
+ 
+.telegram-button:after{
+    animation-delay: .5s;
+}
+ 
+@keyframes animate
+{
+    0%
+    {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
+ ul li .icon {
+    position:relative;
+    top: 2px;
+    display: inline-block;
+    width: 25px;
+    color: #9c27b0;
+    vertical-align: top;
+}
